@@ -1,54 +1,62 @@
 #game {
-  position: relative;
-  width: 400px;
-  height: 200px;
+    position        : relative;
+    width           : 400px;
+    height          : 200px;
 }
+
 #playground {
-  background: url(../images/playground.png);
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  cursor: pointer;
+    background      : url(../images/playground.png);
+    background-size : contain;
+    width           : 100%;
+    height          : 100%;
+    position        : absolute;
+    top             : 0;
+    left            : 0;
+    overflow        : hidden;
+    cursor          : pointer;
 }
+
 #ball {
-  background: #fbb;
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  top: 100px;
-  left: 150px;
-  border-radius: 10px;
+    background      : #fbb;
+    position        : absolute;
+    width           : 20px;
+    height          : 20px;
+    top             : 100px;
+    left            : 150px;
+    border-radius   : 10px;
 }
+
 .paddle {
-  background-size: contain;
-  width: 30px;
-  height: 70px;
-  top: 70px;
-  position: absolute;
+    background-size : contain;
+    width           : 30px;
+    height          : 70px;
+    top             : 70px;
+    position        : absolute;
 }
+
 #paddleA {
-  left: 50px;
-  background-image: url(../images/football-player-left.png);
+    left            : 50px;
+    background-image: url(../images/football-player-left.png);
 }
+
 #paddleB {
-  right: 50px;
-  background-image: url(../images/football-player.png);
+    right           : 50px;
+    background-image: url(../images/football-player.png);
 }
+
 .paddle-hand {
-  background: url(../images/football-player-hand.png) 50% 0 repeat-y;
-  background-size: contain;
-  width: 30px;
-  height: 100%;
-  position: absolute;
-  top: 0;
+    background      : url(../images/football-player-hand.png) 50% 0 repeat-y;
+    background-size : contain;
+    width           : 30px;
+    height          : 100%;
+    position        : absolute;
+    top             : 0;
 }
+
 .left.paddle-hand {
-  left: 50px;
+    left            : 50px;
 }
+
 .right.paddle-hand {
-  right: 50px;
+    right           : 50px;
 }
